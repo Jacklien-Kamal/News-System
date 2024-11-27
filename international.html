@@ -1,51 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>International News</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <!-- Header -->
-   <!-- Header -->
-   <nav>
-    <span style="display: flex; align-items: center; gap: 6px;">
-      <a href="/index.html"> <img src="./images/icon.png" width="40" height="40"/></a> 
-      <h1>Students <span>N</span>ews  Portal</h1>
-    </span>
-   
-    <div class="nav-links">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="international.html">International</a></li>
-        <li><a href="national.html">National</a></li>
-        <li><a href="sports.html">Sports</a></li>
-        <li><a href="tech.html">Tech</a></li>
-        <li><a href="weather.html">Weather</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-      </ul>
-    </div>
-</nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>International News</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="international.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <!-- Header -->
+    <nav>
+      <span style="display: flex; align-items: center; gap: 6px">
+        <a href="/index.html">
+          <img src="./images/icon.png" width="40" height="40"
+        /></a>
+        <h1>Students <span>N</span>ews Portal</h1>
+      </span>
 
-  <!-- Main Content -->
-  <main>
-    <h2>International News</h2>
-    <article>
-      <h3>Article Title 1</h3>
-      <img src="path/to/image1.jpg" alt="Article Image 1">
-      <p>Short description of the news article.</p>
-    </article>
-    <article>
-      <h3>Article Title 2</h3>
-      <img src="path/to/image2.jpg" alt="Article Image 2">
-      <p>Short description of the news article.</p>
-    </article>
-  </main>
+      <div class="nav-links">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="international.html">International</a></li>
+          <li><a href="national.html">National</a></li>
+          <li><a href="sports.html">Sports</a></li>
+          <li><a href="tech.html">Tech</a></li>
+          <li><a href="weather.html">Weather</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2024 Student News Portal. All rights reserved.</p>
-  </footer>
-</body>
+    <header class="container">
+      <h1>
+        <hr id="bold-hr"  style="display: inline-block;"/>
+
+        Latest International Headlines News</h1>
+      <hr />
+    </header>
+
+    <!-- Main Content -->
+    <main class="container home-cont">
+      <!-- left section -->
+      <section class="left-main-section">
+        <div class="inter-article">
+          <video width="100%" height="560" controls autoplay muted>
+            <source
+              src="./images/internationalImage/inter.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+
+          <h1>ENGLISH SPEECH | DONALD TRUMP: Victory Speech 2024</h1>
+          <h4>
+            American values and his plans to lead the country toward a brighter
+            future. This speech is an inspiring message of unity and hope for al
+          </h4>
+          <p>Published 6:33 AM EST, Nov,9 2024</p>
+        </div>
+        <div class="inter-article">
+          <img src="./images/internationalImage/image1.png" width="100%" />
+
+          <h1>Israel-Hezbollah ceasefire begins</h1>
+          <h4>
+            The agreement is designed to be a cessation of hostilities over the
+            next 60 days, with the Lebanese army and state security forces
+            taking control of their own territory
+          </h4>
+          <p>Published 6:33 AM EST, Mon November 25, 2024</p>
+        </div>
+
+        <div class="inter-article">
+          <img src="./images/internationalImage/image2.png" width="100%" />
+
+          <h1>
+            Austria and the Troika to visit it and propose adding peace
+            negotiations between Russia and Ukraine
+          </h1>
+          <h4>
+            Austria has once again put itself forward as a potential location
+            for peace negotiations between Russia and Ukraine.
+          </h4>
+          <p>Published 6:33 AM EST, Mon November 25, 2024</p>
+        </div>
+
+        <hr />
+        <h1>Related News</h1>
+
+        <div class="articl-cont">
+          <div class="small-article">
+            <img src="./images/sm-2.png" />
+            <span>
+              <h1>LinkedIn: We're too boring for kids for social media ban</h1>
+              <h4>
+                It is one of a number of tech firms pushing back against
+                Australia's plan to ban social media for under-16s.
+              </h4>
+              <p>7 hrs ago | Technology</p>
+            </span>
+          </div>
+          <div class="small-article">
+            <img src="./images/sm-3.png" />
+            <span>
+              <h1>King listens to Parliament’s response to Speech</h1>
+              <h4>
+                Parliament on Monday presented its response to the Speech from
+                the Throne, .
+              </h4>
+              <p>9 hours ago | National</p>
+            </span>
+          </div>
+          <div class="small-article">
+            <img src="./images/sm-4.png" />
+            <span>
+              <h1>Amman Current Weather is Clear</h1>
+              <h4>
+                In Amman, the weather is currently clear with a temperature of
+                about 43°F (6°C), though it feels like 39°F (4°C)
+              </h4>
+              <p>3 hours ago | Weather</p>
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <!-- right section -->
+      <section class="right-main-section">
+        
+
+        <article class="side-articles-cont">
+          <div>
+            <img src="./images/internationalImage/ad.png" width="80%" style="height: 400px" />
+          </div>
+          <span>
+            <hr id="bold-hr" />
+            <h1>Most read</h1>
+          </span>
+          <div class="side-article">
+            <img src="./images/sid1.png" />
+            <span>
+              <h1>
+                A huge fire broke out at a space rocket test site in Japan
+              </h1>
+              <p>Nov 26, 2024</p>
+            </span>
+          </div>
+          <div class="side-article">
+            <img src="./images/sid2.png" />
+            <span>
+              <h1>Celebrating World Fish Resources Day in North Batinah</h1>
+              <p>Nov 20, 2024</p>
+            </span>
+          </div>
+          <div class="side-article">
+            <img src="./images/sid3.png" />
+            <span>
+              <h1>
+                Al Buraimi Governorate signs two memorandums of cooperation in
+                the field of artificial intelligence
+              </h1>
+              <p>9h</p>
+            </span>
+          </div>
+          <div class="side-article">
+            <img src="./images/sid4.png" />
+            <span>
+              <h1>The Muscat Stock Exchange index closed up by 0.75 percent</h1>
+              <p>1h</p>
+            </span>
+          </div>
+
+          <a href="#" class="read-more">See more</a>
+
+          
+        </article>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Student News Portal. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
