@@ -73,7 +73,7 @@ nav {
     #8a8a8a,
     #ebedf3,
     #fdffff
-  ); /* Blue gradient */
+  ); 
   color: black;
   z-index: 1000;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
@@ -142,7 +142,7 @@ nav .nav-links ul li a:hover {
   position: relative;
   color: white;
   height: 60vh;
-  background: url(./images/background.jpg) center center/cover;
+  background: url(../images/background.jpg) center center/cover;
 }
 
 .showcase::before {
