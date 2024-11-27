@@ -11,6 +11,24 @@ body {
   padding: 0px 10px;
   margin: auto;
 }
+main {
+  padding: 20px;
+}
+
+article img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+}
+
+article {
+  margin-bottom: 20px;
+}
+
+
+
+/* all 3 animations */
 
 @keyframes fadeInSlideDown {
   0% {
@@ -43,6 +61,7 @@ body {
     transform: translateX(0);
   }
 }
+/* navbar */
 
 nav {
   position: fixed;
@@ -92,7 +111,6 @@ nav .nav-links ul {
 }
 
 nav .nav-links ul li {
-  /* display: inline; */
   margin: 0 10px;
 }
 
@@ -110,13 +128,16 @@ nav .nav-links ul li a:hover {
   color: green;
   border-radius: 4px;
 }
+.home-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24rem;
+  padding-top: 40px;
+  border-left: 1px solid rgba(117, 115, 115, 0.192);
+}
 
-/* hr{
-  border: 0;
-  width: 100%;
-  height: 1px;
-  background-color: #b9b6b69a;
-  } */
+
+/* welcome home poster */
 .showcase {
   position: relative;
   color: white;
@@ -182,11 +203,16 @@ nav .nav-links ul li a:hover {
   background-color: rgb(8, 6, 1);
 }
 
+
+/* main home  */
 .home-cont {
   width: 100%;
   display: flex;
   gap: 60px;
 }
+
+
+/* right sectiton-main */
 .right-main-section {
   
   margin-top: 60px;
@@ -219,7 +245,9 @@ nav .nav-links ul li a:hover {
   height: 70px;
 }
 
-/* left main */
+
+
+/* left section-main */
 
 .left-main-section {
   width: 70%;
@@ -302,10 +330,9 @@ nav .nav-links ul li a:hover {
   color: #555454;
 }
 
+/* iframe of youtube */
 .video-news {
   text-align: center;
-  /* padding: 20px; */
-  /* background: linear-gradient(135deg, #e3f2fd, #90caf9); */
   border-radius: 8px;
   margin: 20px auto;
   width: 100%;
@@ -347,6 +374,9 @@ nav .nav-links ul li a:hover {
   line-height: 1.5;
 }
 
+
+/* footer */
+
 footer {
 margin-top: 100px;
   width: 100%;
@@ -356,25 +386,3 @@ margin-top: 100px;
   padding: 10px 0;
 }
 
-main {
-  padding: 20px;
-}
-
-.home-container {
-  display: flex;
-  flex-direction: column;
-  margin-left: 24rem;
-  padding-top: 40px;
-  border-left: 1px solid rgba(117, 115, 115, 0.192);
-}
-
-article img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 10px 0;
-}
-
-article {
-  margin-bottom: 20px;
-}
